@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 from db import add_user, add_user_name, add_user_team, get_user_name, get_user_team
 
-bot = Bot("6497557375:AAE4MDSzAGDow3VsHOjp9_LsqRDBiAWdjhE")
+bot = Bot("")
 dp = Dispatcher(bot,storage=MemoryStorage())
 class user_reg(StatesGroup):
     name = State()
